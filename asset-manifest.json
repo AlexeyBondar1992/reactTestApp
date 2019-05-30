@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/AlexeyBondar1992/reactTestApp/static/css/main.8fb63afa.chunk.css",
-    "main.js": "/AlexeyBondar1992/reactTestApp/static/js/main.bc6d06b5.chunk.js",
-    "main.js.map": "/AlexeyBondar1992/reactTestApp/static/js/main.bc6d06b5.chunk.js.map",
-    "runtime~main.js": "/AlexeyBondar1992/reactTestApp/static/js/runtime~main.ee359c6a.js",
-    "runtime~main.js.map": "/AlexeyBondar1992/reactTestApp/static/js/runtime~main.ee359c6a.js.map",
-    "static/css/2.31dafeb2.chunk.css": "/AlexeyBondar1992/reactTestApp/static/css/2.31dafeb2.chunk.css",
-    "static/js/2.3cb77fba.chunk.js": "/AlexeyBondar1992/reactTestApp/static/js/2.3cb77fba.chunk.js",
-    "static/js/2.3cb77fba.chunk.js.map": "/AlexeyBondar1992/reactTestApp/static/js/2.3cb77fba.chunk.js.map",
-    "index.html": "/AlexeyBondar1992/reactTestApp/index.html",
-    "precache-manifest.bd4668947f9773ede433893175cf1c27.js": "/AlexeyBondar1992/reactTestApp/precache-manifest.bd4668947f9773ede433893175cf1c27.js",
-    "service-worker.js": "/AlexeyBondar1992/reactTestApp/service-worker.js",
-    "static/css/2.31dafeb2.chunk.css.map": "/AlexeyBondar1992/reactTestApp/static/css/2.31dafeb2.chunk.css.map",
-    "static/css/main.8fb63afa.chunk.css.map": "/AlexeyBondar1992/reactTestApp/static/css/main.8fb63afa.chunk.css.map",
-    "static/media/App.css": "/AlexeyBondar1992/reactTestApp/static/media/SEGA.12a3db8b.woff"
+    "main.css": "/reactTestApp/static/css/main.fe7583ed.chunk.css",
+    "main.js": "/reactTestApp/static/js/main.23b737a7.chunk.js",
+    "main.js.map": "/reactTestApp/static/js/main.23b737a7.chunk.js.map",
+    "runtime~main.js": "/reactTestApp/static/js/runtime~main.eac4a453.js",
+    "runtime~main.js.map": "/reactTestApp/static/js/runtime~main.eac4a453.js.map",
+    "static/css/2.31dafeb2.chunk.css": "/reactTestApp/static/css/2.31dafeb2.chunk.css",
+    "static/js/2.3cb77fba.chunk.js": "/reactTestApp/static/js/2.3cb77fba.chunk.js",
+    "static/js/2.3cb77fba.chunk.js.map": "/reactTestApp/static/js/2.3cb77fba.chunk.js.map",
+    "index.html": "/reactTestApp/index.html",
+    "precache-manifest.0087008b48b44ba69fa356aade533cbd.js": "/reactTestApp/precache-manifest.0087008b48b44ba69fa356aade533cbd.js",
+    "service-worker.js": "/reactTestApp/service-worker.js",
+    "static/css/2.31dafeb2.chunk.css.map": "/reactTestApp/static/css/2.31dafeb2.chunk.css.map",
+    "static/css/main.fe7583ed.chunk.css.map": "/reactTestApp/static/css/main.fe7583ed.chunk.css.map",
+    "static/media/App.css": "/reactTestApp/static/media/SEGA.12a3db8b.woff"
   }
 }
