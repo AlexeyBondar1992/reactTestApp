@@ -6,10 +6,10 @@ import {
 } from './constants';
 
 
-const initialStateSearch = {
+export const initialStateSearch = {
     searchField: ''
 };
-const initialStateRobots = {
+export const initialStateRobots = {
     isPending: false,
     robots: [],
     error: ''

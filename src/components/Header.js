@@ -3,7 +3,7 @@ import CounterButton from './CounterButton';
 
 class Header extends Component {
     shouldComponentUpdate (nextProps, nextState, nextContext) {
-        return true;
+        return false;
     }
 
     render () {
