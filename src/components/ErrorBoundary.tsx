@@ -1,14 +1,18 @@
-import React, { Component } from 'react';
+import React, {Component, ErrorInfo} from 'react';
 
-export default class ErrorBoundary extends Component {
-    constructor (props) {
+interface IErrorBoundaryState {
+    hasError: boolean;
+}
+
+export default class ErrorBoundary<P> extends Component<P, IErrorBoundaryState> {
+    constructor (props: P) {
         super(props);
         this.state = {
             hasError: false
         }
     }
 
-    componentDidCatch (error, errorInfo) {
+    componentDidCatch (error: Error, errorInfo: ErrorInfo) {
         this.setState({ hasError: true });
     }
 

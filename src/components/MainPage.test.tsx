@@ -7,7 +7,8 @@ const mockProps = {
     onRequestRobots: jest.fn(),
     robots: [],
     searchField: '',
-    isPending: false
+    isPending: false,
+    error: ''
 };
 
 let wrapper;

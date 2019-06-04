@@ -1,8 +1,9 @@
 import React from 'react';
 import Card from './Card';
+import {IRobot} from '../interfaces';
 
 
-const CardList = ({ robots }) => {
+const CardList: React.FunctionComponent<{ robots: IRobot[] }> = ({ robots }) => {
     return (
         <div>
             {

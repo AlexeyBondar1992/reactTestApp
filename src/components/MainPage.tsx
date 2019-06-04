@@ -1,12 +1,25 @@
-import React, { Component } from 'react';
+import React, {Component, ReactNode} from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
 import ErrorBoundary from '../components/ErrorBoundary';
 import Header from '../components/Header';
 import './MainPage.css';
+import {IStateRobots, IStateSearch} from '../interfaces';
 
-class MainPage extends Component {
+export interface IMainPageProps extends IMapSateToProps, IMapDispatchToProps {
+    children?: ReactNode;
+}
+
+export interface IMapSateToProps extends IStateSearch, IStateRobots {
+}
+
+export interface IMapDispatchToProps {
+    onSearchChange: (event: React.SyntheticEvent<HTMLInputElement>) => void;
+    onRequestRobots: () => void;
+}
+
+class MainPage extends Component<IMainPageProps> {
     componentDidMount () {
         this.props.onRequestRobots();
     }
